@@ -1,5 +1,35 @@
-.roboto-regular {
+.website{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    display: flex;
+    box-sizing: border-box;
   }
+
+.top{
+    
+    background-color: #1F2937;
+    color: white;
+}
+.header{
+    font-size: 18px;
+    
+}
+
+.logo{
+    font-weight: 900;
+    width: 200px;
+    
+}
+
+
+.headerlink{
+    display: flex;
+    width: 100px;
+    justify-content: flex-end;
+
+}
+
+.midbot{
+    background-color: #E5E7EB;
+}
