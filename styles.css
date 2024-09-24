@@ -3,36 +3,64 @@
     font-weight: 400;
     font-style: normal;
     display: flex;
-    box-sizing: border-box;
+    flex-direction: column;
+    max-width: 100%;
   }
 
 .top{
-    
     background-color: #1F2937;
     color: white;
+    width: 2000px;
+    max-width: 100%;
 }
 .header{
     display: flex;
     flex-wrap: nowrap;
-    flex-grow: 4 1 1 1; 
     font-size: 18px;
-    
+}
+
+.topleft{
+    justify-content: space-evenly;
+    padding: 10px;
+    justify-content: center;
 }
 
 .logo{
     font-weight: 900;
     width: 200px;
-    
+    padding: 50px;
 }
 
 
 .headerlink{
     display: flex;
+    flex: 1;
     width: 100px;
-    justify-content: flex-end;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+.midtop{
+    width: 2000px;
+    background-color: #3882F6;
+}
+.midbot{
+    
+    background-color: #E5E7EB;
+    width: 2000px;
+
 
 }
 
-.midbot{
-    background-color: #E5E7EB;
+.button{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 15px;
+}
+.button:hover{
+    background-color: #235ebc;
+    cursor:pointer;
+}
+.button:active{
+    background-color: #3882F6;
 }
