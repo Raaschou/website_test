@@ -14,6 +14,7 @@ body{
 
 
 .top{
+    
     background-color: #1F2937;
     color: white;
     width: auto;
@@ -30,6 +31,7 @@ body{
 }
 
 .logo{
+    text-wrap: nowrap;
     font-size: 24px;
     font-weight: 900;
     
@@ -50,7 +52,6 @@ body{
 
 .headerlinkbox{
     height: min-content;
-    
     margin-left: 100px;
     flex-basis: auto;
     
@@ -83,7 +84,7 @@ body{
 
 .dog{
     object-fit: contain;
-    width: 400px;
+    width: 500px;
 }
 
 .awtext{
@@ -185,6 +186,7 @@ body{
 
 .quote{
     font-size: 36px;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
     width: 500px;
@@ -202,14 +204,17 @@ body{
     padding: 15px 12%;
     display: flex;
     justify-content: center;
+    padding: 120px 20px 120px 20px;
 }
 
 .bbb{
     background-color: #3882F6;
     border-radius: 15px;
-    width: auto;
+    width: 60%;
     display: flex;
     padding: 30px 10px 30px 10px;
+    align-items: center;
+    justify-content: space-between
 }
 
 
@@ -237,18 +242,19 @@ body{
 
 
 .button2{
-    
+    display: flex;
+    margin-right: 40px;
     background-color: #3882F6;
     border: solid;
     border-color: white;
-    border-width: 1px;
+    border-width: 2px;
     color: white;
     border-radius: 7px;
-    height: auto;
+    height: 20px;
+    min-width: 60px;
     padding: 6px 30px 6px 30px;
     font-weight: 600;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    
     
 }
 
@@ -261,3 +267,13 @@ body{
     background-color: #3882F6;
 }  
 
+
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 50px 20px 50px 20px;
+}
