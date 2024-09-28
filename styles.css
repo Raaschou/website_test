@@ -4,16 +4,21 @@ body{
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    gap: 20px;
+   
+    margin: 0;
   }
 
 
 /* Kode til den øverste del af siden */
 
+
+
 .top{
     background-color: #1F2937;
     color: white;
-    max-width: 100%;
+    width: auto;
+    padding: 10px 5%;
+    
 }
 
 /* Kode til header */
@@ -27,9 +32,7 @@ body{
 .logo{
     font-size: 24px;
     font-weight: 900;
-    width: 200px;
-    padding-top: 14px;
-    padding-left: 50px;
+    
 }
 
 .logo:hover{
@@ -39,34 +42,36 @@ body{
 .headerlink{
     display: flex;
     font-size: 18px;
-    flex: 1;
-    padding-top: 20px;
     justify-content: center;
-    margin-left: 100px;
+    padding-left: 28%;
 }
 
 
 
 .headerlinkbox{
-    padding-left: 50px;
+    height: min-content;
+    
+    margin-left: 40px;
+    flex-basis: auto;
+    
 }
 
-.headerlink:hover{
+.headerlinkbox:hover{
     cursor:pointer;
+    text-decoration: underline;
 }
 
 /* Kode til tekst og billede under header */
 
 .underheader{
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 
 .topleft{
-    padding: 10px;
     max-width: 500px;
 }
 
@@ -90,6 +95,7 @@ body{
     padding: 6px 30px 6px 30px;
     font-weight: 600;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .button:hover{
@@ -103,8 +109,16 @@ body{
 
 /* Kode til miderste del med blå bokse */
 .midtop{
-    width: 2000px;
+    width: auto;
+    padding: 10px 5%;
     
+    
+}
+
+
+.boxtitle{
+    display: flex;
+    justify-content: center;
 }
 
 .linebox{
@@ -127,11 +141,15 @@ body{
 
 
 .midbot{
-    
+    width: auto;
+    padding: 10px 5%;
     background-color: #E5E7EB;
     width: 2000px;
 
 
 }
 
-
+.bottom{
+    width: auto;
+    padding: 10px 5%;
+}
