@@ -1,10 +1,10 @@
-.website{
+body{
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-style: normal;
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    gap: 20px;
   }
 
 .top{
@@ -12,6 +12,7 @@
     color: white;
     width: 2000px;
     max-width: 100%;
+    
 }
 .header{
     display: flex;
@@ -19,10 +20,21 @@
     font-size: 18px;
 }
 
-.topleft{
-    justify-content: space-evenly;
-    padding: 10px;
+.underheader{
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+
+.topleft{
+    padding: 10px;
+}
+
+.awtext{
+    font-size: 48px;
+    font-weight: 900;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -57,6 +69,7 @@
     border: none;
     border-radius: 15px;
 }
+
 .button:hover{
     background-color: #235ebc;
     cursor:pointer;
